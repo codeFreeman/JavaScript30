@@ -16,7 +16,7 @@ Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 da
 
 #### function analyze
 
-when keydown will play audio & add effect
+**when keydown will play audio & add effect**
 
     function keydownPlaySound(e){
       const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -27,9 +27,9 @@ when keydown will play audio & add effect
       key.classList.add('playing');
     }
 
-**use querySelector get audio[data-key],but how do we know we get the right keyCode,use e(event).keyCode to get the key we pressed, then use HTMLMediaElement.play() to play audios, set HTMLMediaElement.currentTime = 0; make audio reset everytime, last thing is use classList function to add class**
+*use querySelector get audio[data-key],but how do we know we get the right keyCode,use e(event).keyCode to get the key we pressed, then use HTMLMediaElement.play() to play audios, set HTMLMediaElement.currentTime = 0; make audio reset everytime, last thing is use classList function to add class*
 
-when mouse click will play audio & add effect
+**when mouse click will play audio & add effect**
 
     function clickPlaySound(e){
       e.stopPropagation();
@@ -43,28 +43,28 @@ when mouse click will play audio & add effect
       key.classList.add('playing');
     }
 
-**this function is same as first function, but use mouseEvent, watch e(event) and get dataset value, if this value same as data-key's value, we can confirm mouse is over the right UI button, then we can play audio, add effect to UI**
+*this function is same as first function, but use mouseEvent, watch e(event) and get dataset value, if this value same as data-key's value, we can confirm mouse is over the right UI button, then we can play audio, add effect to UI*
 
-when effect finfish remove effect class
+**when effect finfish remove effect class**
 
     function removeEffect(e){
       if (e.propertyName !== 'transform') return;
       e.target.classList.remove('playing');
     }
 
-**watch transitionend event, we will find every transition css attributes, if e.propertyName not equal those attributes, we will return, if e.propertyName is equal, we can confirm we reomve the right effect class from this element**
+*watch transitionend event, we will find every transition css attributes, if e.propertyName not equal those attributes, we will return, if e.propertyName is equal, we can confirm we reomve the right effect class from this element*
 
-set dom
+**set dom**
 
     const keys = Array.from(document.querySelectorAll('.key'));
 
-**Array.from(); this function can make a new array. use querySelectorAll select all element have class 'key' frome web UI**
+*Array.from(); this function can make a new array. use querySelectorAll select all element have class 'key' frome web UI*
 
-addEventListener
+**addEventListener**
 
     window.addEventListener('keydown', keydownPlaySound);
     keys.forEach(key => key.addEventListener('click', clickPlaySound));
     keys.forEach(key => key.addEventListener('mouseover', clickPlaySound));
     keys.forEach(key => key.addEventListener('transitionend', removeEffect));
 
-**add EventListener to watch event type being activation, then run function already define**
+*add EventListener to watch event type being activation, then run function already define*
