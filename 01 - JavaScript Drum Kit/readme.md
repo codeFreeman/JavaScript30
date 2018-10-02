@@ -14,7 +14,7 @@ Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 da
 1. when keydown play relate drum audio and add effect in UI
 2. when effect finished remove effect class
 
-#### function analyze
+### function analyze
 
 **when keydown will play audio & add effect**
 
