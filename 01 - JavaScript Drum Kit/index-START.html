@@ -92,7 +92,6 @@
   // when effect finfish remove effect class
   function removeEffect(e){
     console.log(e);
-    // if(e.propertyName !== 'transform' && e.elapsedTime !== 0.07) return;
     if (e.propertyName !== 'transform') return;
 
     e.target.classList.remove('playing');
