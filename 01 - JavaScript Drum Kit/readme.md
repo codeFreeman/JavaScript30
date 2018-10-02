@@ -4,11 +4,11 @@
 
 fork from wesbos, start study JavaScript30,
 
-Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 days, my github is [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 days, my github is [codeFreeman/JavaScript30](https://github.com/codeFreeman/JavaScript30)
 
 ## My experience and note
 
-#### keyword: ES6 Template Literals & Arrow functions, event keydown & transitionend, addEventListener, dataset
+> keyword: ES6 Template Literals & Arrow functions, event keydown & transitionend, addEventListener, dataset
 
 #### defind question(function), this projcet have two things to do
 1. when keydown play relate drum audio and add effect in UI
