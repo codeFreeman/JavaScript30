@@ -16,6 +16,8 @@ Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 da
 
 #### function analyze
 
+  first part
+
     // when keydown will play audio & add effect
     function keydownPlaySound(e){
       const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -25,6 +27,8 @@ Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 da
       audio.play();
       key.classList.add('playing');
     }
+
+  second part
     //when mouse click will play audio & add effect
     function clickPlaySound(e){
       e.stopPropagation();
@@ -49,3 +53,4 @@ Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 da
     keys.forEach(key => key.addEventListener('click', clickPlaySound));
     keys.forEach(key => key.addEventListener('mouseover', clickPlaySound));
     keys.forEach(key => key.addEventListener('transitionend', removeEffect));
+
