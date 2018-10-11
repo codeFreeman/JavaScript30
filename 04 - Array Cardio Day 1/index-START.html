@@ -6,6 +6,8 @@
 </head>
 <body>
   <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+
+
   <script>
     // Get your shorts on - this is an array workout!
     // ## Array Cardio Day 1
@@ -31,29 +33,71 @@
 
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
-
+    const fifteens = inventors.filter(inventor=>
+      inventor.year >= 1500 && inventor.year<1600
+    );
+    console.table(fifteens);
     // Array.prototype.map()
     // 2. Give us an array of the inventors' first and last names
+    const name = inventors.map(inventor =>
+      (`${inventor.first} ${inventor.last}`)
+    )
+    console.log(name);
 
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
+    const oldToYoung = inventors.sort((a, b)=>
+      // a.year - b.year
+      a.year > b.year ? 1 : -1
+    );
+    console.table(oldToYoung);
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
+    const inventorsLive = inventors.reduce((total, live)=>{
+      return total + (live.passed - live.year)
+    },0)
+    console.log(inventorsLive);
 
     // 5. Sort the inventors by years lived
+    const lived = inventors.sort((a,b)=>{
+      const firstOne = a.passed - a.year;
+      const lastOne = b.passed - b.year;
+      return firstOne > lastOne? -1 : 1;
+    })
+    console.table(lived);
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-
+    // const mwCategory = document.querySelectorAll('.mw-category a');
+    // const mwCategoryArr = Array.from(mwCategory);
+    // const de = mwCategoryArr
+    //   .map(arr=>arr.textContent)
+    //   .filter(streetName=> streetName.includes('de'))
+    // console.log(de)
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    // const alphaSort = people.sort((lastN,firstN)=>{
+    //   const [aFirst, aLast] = lastN.split(',');
+    //   const [bFirst, bLast] = firstN.split(',');
+    //   // console.log([aFirst, aLast]);
+    //   // console.log([bFirst, bLast]);
+    //   return aLast > bLast? -1 : 1;
+    // })
+    // console.log(alphaSort);
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
-
+    const transportCount = data.reduce((transport,index) =>{
+      if(!transport[index]){
+        transport[index] = 0;
+      }
+      transport[index]++;
+      return transport;
+    },{})
+    console.log(transportCount);
   </script>
 </body>
 </html>
