@@ -1,32 +1,32 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day3 Scoped CSS Variables and JS
+# JavaScript30 day4 Array Cardio
 
-fork from [wesbos](https://github.com/wesbos/JavaScript30), start study JavaScript30,
+從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
 
-Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 days, my github is [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
-## My experience and note
+## 學習心得
 
-> keyword: [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root),[documentElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement),[setProperty](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty)
+> 學習關鍵字: [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root),[documentElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement),[setProperty](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty)
 
-#### defind question(function), this projcet have two things to do
-1. use javascript to change css :root
+#### 定義問題及撰寫程式
+1. 使用javaScript 去修改css原生語法 :root
 
-### function analyze
+### 程式解析
 
-**set dom**
+**指定dom 元素**
 
     const inputs = Array.from(document.querySelectorAll('.controls input'));
 
-*use querySelector selector all input. note nodeList & Array is different in function we can use, nodeList's function is less than Array's function. we can use Array.from() to change nodeList to Array*
+*使用querySelectorAll 選取在.controls 底下所有input. 筆記：nodeList 和 Array 所提供的方法是不同的, nodeList 提供相當少的方法. 我們可以使用Array.from() 將nodeList 轉換成Array*
 
-**addEventListener**
+**綁定監聽事件**
 
     inputs.forEach(input => input.addEventListener('change', handlerControl));
     inputs.forEach(input => input.addEventListener('mousemove', handlerControl));
 
-*there is two ways to execute this function change(for color picker) and mousemove(for handler bar)*
+*在這邊掛載了兩種類型的監聽事件change for color input(用於顏色選擇器) 及 mousemove for handler input(用於拖拉處理器)*
 
 **create function to add style to documentElement(HTML)**
 
@@ -35,6 +35,6 @@ Hi, I'm a new challenger, wants to be a Front-End developer, will finish js30 da
       document.documentElement.style.setProperty(`--${this.name}`, this.value + unit);
     }
 
-*get value from input and the dataset we alright define, if value don't have suffix(color: #ffc600) return '', use setProperty to change value with inputs*
+*這時候會運用到已經定義好的dataset 取得'px' 後輟字，假如沒有的話返回空字串，同時也取得value 裡的值，運用setProperty() 這個方法將變數名稱及變數得值設定到HTML 標籤*
 
 
