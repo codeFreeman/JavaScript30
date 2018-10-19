@@ -8,7 +8,7 @@
 
 ## 學習心得
 
-> 學習關鍵字: [canvs](https://developer.mozilla.org/zh-TW/docs/Glossary/Canvas)
+> 學習關鍵字: [canvas](https://developer.mozilla.org/zh-TW/docs/Glossary/Canvas)
 
 #### 定義問題及撰寫程式
 
