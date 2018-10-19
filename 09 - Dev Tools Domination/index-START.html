@@ -5,7 +5,6 @@
   <title>Console Tricks!</title>
 </head>
 <body>
-
   <p onClick="makeGreen()">×BREAK×DOWN×</p>
 
   <script>
@@ -18,29 +17,55 @@
     }
 
     // Regular
-
+    console.log('regular');
     // Interpolated
+    console.log('oh don\'t say %s','💩');
 
     // Styled
+    console.log('%c style me','font-size: 20px;color: red');
 
     // warning!
-
+    console.warn('somethin wrong');
     // Error :|
+    console.error('wrong');
 
     // Info
+    console.info('read frist');
 
     // Testing
+    console.assert(9>8,'wrong');
+    console.assert(9<8,'wrong');
 
     // clearing
+    // console.clear();
 
     // Viewing DOM Elements
+    console.dir(p);
 
     // Grouping together
 
+  dogs.forEach(dog=>{
+      console.group(`${dog.name}`);
+      console.log(`dog's name is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old.`);
+      console.groupEnd(`${dog.name}`);
+    })
+
     // counting
+      console.count('yo');
+      console.count('yo');
+      console.count('yo');
+      console.count('yo');
+      console.count('yo');
 
     // timing
-
+      console.time();
+      for (let i = 0; i < 9; i++) {
+        console.log(i);
+      }
+      console.timeEnd();
+    // table
+      console.table(dogs);
   </script>
 </body>
 </html>
