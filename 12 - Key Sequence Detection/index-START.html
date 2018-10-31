@@ -7,6 +7,16 @@
 </head>
 <body>
 <script>
+  const password = "0000";
+  const typeword = [];
+  window.addEventListener('keyup',(e)=>{
+    typeword.push(e.key)
+    typeword.splice(-password.length - 1, typeword.length- password.length);
+    console.log(typeof typeword.join(''));
+    if(typeword.join('').includes(password)){
+      cornify_add();
+    }
+  })
 </script>
 </body>
 </html>
