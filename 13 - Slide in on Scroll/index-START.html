@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>13 - Slide in on Scroll</title>
 </head>
 <body>
 
@@ -58,6 +58,21 @@
       };
     }
 
+    const slideInImgs = Array.from(document.querySelectorAll('.slide-in'));
+    function scrollIn(e){
+      // thigs todo
+      slideInImgs.forEach(slideInImg=> {
+      // halfImg
+        const slideInAt = (window.innerHeight + window.scrollY)- slideInImg.height / 2;
+      // bottomImg
+        const slideInImgBottom = slideInImg.offsetTop+ slideInImg.height;
+        const isHalfShown = slideInAt> slideInImg.offsetTop;
+        const isNotScrolledPast = window.scrollY < slideInImgBottom;
+        const status = (isHalfShown && isNotScrolledPast)?"add":"remove";
+        slideInImg.classList[status]("active");
+      })
+    }
+    window.addEventListener('scroll', debounce(scrollIn));
   </script>
 
   <style>
@@ -68,11 +83,11 @@
       font-size: 20px;
       font-weight: 200;
     }
-    
+
     body {
       margin: 0;
     }
-    
+
     *, *:before, *:after {
       box-sizing: inherit;
     }
@@ -107,7 +122,7 @@
     .align-left.slide-in {
       transform: translateX(-30%) scale(0.95);
     }
-    
+
     .align-right.slide-in {
       transform: translateX(30%) scale(0.95);
     }
