@@ -23,16 +23,80 @@
       <input type="text" name="item" placeholder="Item Name" required>
       <input type="submit" value="+ Add Item">
     </form>
+    <hr>
+    <div class="btn__group">
+      <button class="btn btn__clear">clear all</button>
+      <button class="btn btn__status btn__check" data-check="true">check all</button>
+      <button class="btn btn__status btn__uncheck" data-check="false">uncheck all</button>
+    </div>
   </div>
 
 <script>
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
-  const items = [];
+  const items = JSON.parse(localStorage.getItem('items'))||[];
+  const claerBtn = document.querySelector('.btn__clear');
+  const checkStatusBtn = document.querySelectorAll('.btn__status');
 
+
+  function addNetItems(e){
+    e.preventDefault();
+    const text = this.querySelector('[name="item"]').value;
+    const item = {
+      text,
+      done: false
+    }
+    items.push(item);
+    showPlates(items, itemsList);
+    localStorage.setItem('items', JSON.stringify(items));
+    this.reset();
+  }
+
+  function showPlates(plates=[], platesList){
+    platesList.innerHTML = plates.map((plate, i) =>
+    {
+      return `
+        <li>
+          <input type="checkbox" data-index=${i} id="item${i}" ${plate.done?"checked":""} />
+          <label for="item${i}">${plate.text}</label>
+        </li>
+      `;
+    }).join('');
+  }
+  function toggleDone(e){
+    if(!e.target.matches('input')) return;
+    const el = e.target;
+    const index = el.dataset.index;
+    items[index].done = !items[index].done;
+    localStorage.setItem('items', JSON.stringify(items));
+    showPlates(items, itemsList);
+  }
+
+  function clearItem(){
+    if(items.length == 0) return;
+    // items.length = 0;
+    items.splice(0);
+    // localStorage.removeItem('items');
+    localStorage.clear();
+    showPlates(items, itemsList);
+  }
+
+  function checkStatus(){
+    if(items.length == 0) return;
+    const status = this.dataset.check;
+    items.forEach(i => i.done = (status == 'true') ? true : false);
+    localStorage.setItem('items', JSON.stringify(items));
+    showPlates(items, itemsList);
+  }
+
+  addItems.addEventListener('submit', addNetItems);
+  itemsList.addEventListener('click', toggleDone);
+  claerBtn.addEventListener('click', clearItem);
+  checkStatusBtn.forEach(btn => {
+    btn.addEventListener('click', checkStatus)
+  });
+  showPlates(items, itemsList);
 </script>
-
-
 </body>
 </html>
 
