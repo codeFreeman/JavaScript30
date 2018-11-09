@@ -13,12 +13,13 @@
     <span class="speed-value">0</span>
     <span class="units">KM/H</span>
   </h1>
+  <p class="latLog">經度，緯度</p>
 
   <style>
     html {
       font-size: 100px;
     }
-    
+
     body {
       margin: 0;
       font-family: sans-serif;
@@ -56,9 +57,27 @@
     .units {
       font-size: 15px;
     }
+
+    .latLog{
+      font-size: 15px;
+      color: #ffffff;
+    }
     /*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
   </style>
   <script>
+    const arrow  = document.querySelector('.arrow');
+    const speed  = document.querySelector('.speed-value');
+    const latLog = document.querySelector('.latLog');
+
+    navigator.geolocation.watchPosition((geo) => {
+      speed.textContent = geo.coords.speed;
+      arrow.style.transform = `rotate(${geo.coords.heading}deg)`
+      latLog.textContent = `經度${ geo.coords.longitude}， 緯度:${geo.coords.latitude}`
+    }, (err) => {
+      console.error(err);
+      alert('please allow geolocation!')
+    });
+
   </script>
 </body>
 </html>
