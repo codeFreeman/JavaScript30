@@ -1,6 +1,6 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day21 geolocation
+# JavaScript30 day21 Geolocation
 
 從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
 
@@ -8,11 +8,12 @@
 
 ## 學習心得
 
-> 學習關鍵字: [geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
+> 學習關鍵字: [getBoundingClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect),
+[wesbos 所參考的網站](https://stripe.com/)
 
 #### 定義問題及撰寫程式
 
-1. 第二十天取得使用者的地理相關資訊
+1. 第二十一天取得使用者的地理相關資訊
 
 ### 程式解析
 
