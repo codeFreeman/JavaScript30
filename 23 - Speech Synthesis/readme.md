@@ -1,8 +1,8 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day22 Follow Along Nav
+# JavaScript30 day23 Speech Synthesis
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從 [wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
 我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
@@ -19,35 +19,67 @@
 
 **指定dom 元素**
 
-    const targer = document.querySelectorAll('a');
-    const highlight = document.createElement('span')
-    highlight.classList.add('highlight');
-    document.body.appendChild(highlight);
+    const msg = new SpeechSynthesisUtterance();
+    let voices = [];
+    const voicesDropdown = document.querySelector('[name="voice"]');
+    const options = document.querySelectorAll('[type="range"], [name="text"]');
+    const speakButton = document.querySelector('#speak');
+    const stopButton = document.querySelector('#stop');
 
-*選取所有a 連結，並產生一個指定提示特效的span*
+    msg.text = document.querySelector('[name="text"]').value;
 
-**提示效果**
+*建立new SpeechSynthesisUtterance()(中文直譯為語音合成話語)的物件，並取得輸入框內的文字設定到msg.text 的屬性*
 
-    function highlightLink(){
-      const linkCoords = this.getBoundingClientRect();
-      const extra = 5;
-      const coords = {
-        width: linkCoords.width + extra,
-        height: linkCoords.height + extra,
-        top: (linkCoords.top - (extra / 2)) + window.scrollY,
-        left: (linkCoords.left - (extra / 2)) + window.scrollX
-      }
-      highlight.style.width = `${coords.width}px`
-      highlight.style.height = `${coords.height}px`
-      highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`
+**建立語音選單**
+
+    function popVoices(){
+      voices = this.getVoices();
+      voicesDropdown.innerHTML = voices
+        .filter(voice => voice.lang.includes('en'))
+        .map(voice => `<option value="${voice.name}">${voice.name} ${voice.lang}</option>`)
+        .join()
     }
 
-*將a 連結的位置取出後，指定到一開始設定的span，在滑鼠滑入時，span的位置會跟a 連結同步*
+    speechSynthesis.addEventListener('voiceschanged', popVoices);
 
-**增加監聽事件**
+*speechSynthesis 還需要搭配事件 "voiceschanged"，透過.getVoices() 取得內建的所有語音並產生下拉選單*
 
-    targer.forEach(a => {
-      a.addEventListener('mouseenter', highlightLink)
-    });
+**設定語音**
 
-*對每個a 連結增加監聽事件，只要滑鼠移入就執行function*
+    function setVoice(){
+      msg.voice = voices.find(voice => voice.name === this.value);
+      toggleSpeech();
+    }
+
+    voicesDropdown.addEventListener('change', setVoice);
+
+*針對下單選單建立"change"事件，並用find() 比對後，更新到msg.voice 的屬性*
+
+**暫停/播放音效**
+
+    function toggleSpeech(startOver = true){
+      speechSynthesis.cancel();
+      if(startOver){
+        speechSynthesis.speak(msg);
+      }
+    }
+
+*每次播放音效之前都先停止播放*
+
+**設定參數**
+
+    function setOption(){
+      msg[this.name] = this.value;
+      toggleSpeech();
+    }
+
+    options.forEach(option => option.addEventListener('change',setOption));
+
+*將msg 裡面的參數，對應到options 的change 事件，所取得的input value*
+
+**播放/停止**
+
+  speakButton.addEventListener('click', toggleSpeech);
+  stopButton.addEventListener('click', ()=> toggleSpeech
+
+*最後完成播放/停止按鈕*
