@@ -2,9 +2,9 @@
 
 # JavaScript30 day18 Adding Up Times with Reduce
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
@@ -12,7 +12,9 @@
 
 #### 定義問題及撰寫程式
 
-1. 第十八天用reduce() 將時間加總
+第十八天用reduce() 將時間加總
+1. 取得所有時間並轉換成秒數加總
+2. 勁過計算轉換成時、分、秒
 
 ### 程式解析
 
@@ -22,7 +24,7 @@
 
 *選取所有的data-time 並用Array.from()轉成array 等等要使用map() 取出值*
 
-**取得video 總共時間並轉換成小時、分鐘、秒**
+**取得video 總共時間轉換成小時、分鐘、秒**
 
     const totalTime = time
     .map(time => time.dataset.time)

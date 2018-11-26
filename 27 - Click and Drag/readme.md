@@ -2,17 +2,18 @@
 
 # JavaScript30 day27 Click and Drag
 
-從 [wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [pageX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageX),[offsetLeft](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetLeft),[scrollLeft](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft),[scrollLeft](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft)
+> 學習關鍵字: [pageX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageX), [offsetLeft](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetLeft), [scrollLeft](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft), [scrollLeft](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft)
 
 #### 定義問題及撰寫程式
 
-1. 第二十六天講解隨選單移動的下拉選單
+第二十七天實作類似可拖拉的相簿或幻燈片
+1.當點擊下去時可以拖拉畫面
 
 ### 程式解析
 

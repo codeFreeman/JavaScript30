@@ -8,11 +8,13 @@
 
 ## 學習心得
 
-> 學習關鍵字: [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition),[createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement),[appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild),[event result],[event end]
+> 學習關鍵字: [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement), [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild), [event result], [event end]
 
 #### 定義問題及撰寫程式
 
-1. 第二十天實作即時語音辨識功能
+第二十天實作即時語音辨識功能
+1. 取得web api 開啟語音辨識功能
+2. 將擷取到的語音更新在畫面上
 
 ### 程式解析
 
@@ -22,7 +24,7 @@
 
 *今天的功能是屬於web api的一種，但只支援google chrome，而且並非原生功能需加上webkit 前綴詞*
 
-**取得視訊影像**
+**取得語音功能**
 
     const recognition = new SpeechRecognition();
     recognition.interimResults=true;

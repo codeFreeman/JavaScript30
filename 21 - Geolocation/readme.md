@@ -2,18 +2,19 @@
 
 # JavaScript30 day21 Geolocation
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [getBoundingClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect),
-[wesbos 所參考的網站](https://stripe.com/)
+> 學習關鍵字: [Navigator](https://developer.mozilla.org/en-US/docs/Web/API/Navigator),  [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation)
 
 #### 定義問題及撰寫程式
 
-1. 第二十一天取得使用者的地理相關資訊
+第二十一天實作一個指南針
+1. 取得使用者的地理相關資訊
+2. 將取得的資訊透過style 動態載入資訊
 
 ### 程式解析
 

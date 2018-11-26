@@ -2,17 +2,19 @@
 
 # JavaScript30 day17 Sort Without Articles
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [trim()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim),[RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+> 學習關鍵字: [trim()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim), [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 
 #### 定義問題及撰寫程式
 
-1. 第十七天排除掉冠詞的排序
+第十七天用sort() 排序
+1. 避免冠詞影響排序結果，將冠詞排除
+2. 將處理過的資料顯示在畫面上
 
 ### 程式解析
 

@@ -2,17 +2,17 @@
 
 # JavaScript30 day6 Type Ahead 👀
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp),[RegexOne](https://regexone.com/),[join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/join),[replace(regexp|substr, newSubstr|function)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace),[Fetch_API](https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API)
+> 學習關鍵字: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [RegexOne](https://regexone.com/), [join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/join), [replace(regexp|substr, newSubstr|function)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace), [Fetch_API](https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API)
 
 #### 定義問題及撰寫程式
 
-1. 第六天介紹了fetch api，擷取網路上的json 格式，並透過之前學習過的filter()，建立一個簡易的搜尋框。
+第六天介紹了fetch api，擷取網路上的json 格式，並透過之前學習過的filter()，建立一個簡易的搜尋框。
 
 ### 程式解析
 

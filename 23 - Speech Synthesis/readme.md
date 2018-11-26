@@ -2,18 +2,19 @@
 
 # JavaScript30 day23 Speech Synthesis
 
-從 [wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [getBoundingClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect),
-[wesbos 所參考的網站](https://stripe.com/)
+> 學習關鍵字: [SpeechSynthesisUtterance](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance), [getVoices](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices),
 
 #### 定義問題及撰寫程式
 
-1. 第二十二天製作了一個滑入提示效果
+第二十三天實作閱讀文字的工具
+1. 每次更換聲音來源、閱讀速度、閱讀音調時都要啟動閱讀的效果
+2. speak/stop 的功能
 
 ### 程式解析
 

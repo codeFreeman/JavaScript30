@@ -2,9 +2,9 @@
 
 # JavaScript30 day13 JS Reference VS Copy
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
@@ -12,7 +12,7 @@
 
 #### 定義問題及撰寫程式
 
-1. 第十四天在介紹傳值及傳址
+第十四天在介紹傳值及傳址
 
 ### 程式解析
 

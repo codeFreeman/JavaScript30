@@ -2,17 +2,18 @@
 
 # JavaScript30 day28 Video Speed Scrubber
 
-從 [wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [pageY](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageY),[offsetTop](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop),[offsetHeight](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetHeight),[playbackRate](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate)
+> 學習關鍵字: [pageY](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageY), [offsetTop](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop), [offsetHeight](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetHeight), [playbackRate](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate)
 
 #### 定義問題及撰寫程式
 
-1. 第二十八天是延續上次滑鼠移動的應用，製作用滑鼠調整播放速度的影片播放器
+第二十八天實作透過滑鼠移動調整播放速度的瀏覽器
+1. 當滑鼠在音量調整控制列移動時，可以加快或減慢影片播放速度
 
 ### 程式解析
 

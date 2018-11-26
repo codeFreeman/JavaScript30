@@ -1,10 +1,10 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day15 LocalStorage
+# JavaScript30 day16 Mouse Move Shadow
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
@@ -12,7 +12,9 @@
 
 #### 定義問題及撰寫程式
 
-1. 第十六天設計了一個文字陰影移動的特效
+第十六天實作文字陰影移動的特效
+1. 取得滑鼠在畫面上的位置
+2. 將文字陰影的style 加上動態的值
 
 ### 程式解析
 

@@ -2,9 +2,9 @@
 
 # JavaScript30 day5 Flex Panels 💪
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
@@ -12,7 +12,7 @@
 
 #### 定義問題及撰寫程式
 
-1. 第五天帶入了flexbox 的應用(順便推銷一下自己有flexbox的[教學](https://flexbox.io/))，製作了一個類似collapse 特效的相片盒
+第五天介紹flexbox 的應用，製作了一個類collapse 特效的相片盒
 
 ### 程式解析
 

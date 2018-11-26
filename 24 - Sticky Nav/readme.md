@@ -2,9 +2,9 @@
 
 # JavaScript30 day24 Sticky Nav
 
-從 [wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
@@ -12,7 +12,8 @@
 
 #### 定義問題及撰寫程式
 
-1. 第二十四天製作了常見的選單固定功能
+第二十四天實作選單固定功能
+1. 往下捲到超過選單時將選單固定住並顯示logo，往回卷時解除選單固定並隱藏logo
 
 ### 程式解析
 

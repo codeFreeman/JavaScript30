@@ -1,16 +1,17 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day4 Array Cardio
+# JavaScript30 day1 Drum Kit
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
 > 學習關鍵字:  ES6 [Template Literals](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Template_literals) & [Arrow functions](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions), event [keydown](https://developer.mozilla.org/en-US/docs/Web/Events/keydown) & [transitionend](https://developer.mozilla.org/en-US/docs/Web/Events/transitionend), [addEventListener](https://developer.mozilla.org/zh-TW/docs/Web/API/EventTarget/addEventListener), [dataset](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLElement/dataset)
 
 #### 定義問題及撰寫程式
+
 1. 第一天是要挑戰事件監聽模擬一個用鍵盤控制的小遊戲，當鍵盤敲擊時會同時在對應的按鈕上產生效果及播放音效
 2. 當transition 效果結束時應該要移除網頁上效果的class
 

@@ -2,9 +2,9 @@
 
 # JavaScript30 day12 Key Detection
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
@@ -12,7 +12,8 @@
 
 #### 定義問題及撰寫程式
 
-1. 第十二設計一個密碼監測小工具。
+第十二天實作密碼檢測工具
+1. 輸入的內容等於密碼時會在畫面上新增獨角獸
 
 ### 程式解析
 

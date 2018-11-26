@@ -2,17 +2,18 @@
 
 # JavaScript30 day26 Stripe Follow Along Nav
 
-從 [wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [setProperty](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty),[classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+> 學習關鍵字: [setProperty](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty), [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 
 #### 定義問題及撰寫程式
 
-1. 第二十六天講解隨選單移動的下拉選單
+第二十六實作隨滑鼠移動的下拉選單
+1. 要符合下拉選單的內容大小去動態調整
 
 ### 程式解析
 

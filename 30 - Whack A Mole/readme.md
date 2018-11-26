@@ -1,18 +1,20 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day29 Countdown Timer
+# JavaScript30 day30 Whack A Mole
 
-從 [wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout),[Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random),[Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor),[isTrusted](https://developer.mozilla.org/en-US/docs/Web/API/Event/isTrusted)
+> 學習關鍵字: [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random), [Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor), [isTrusted](https://developer.mozilla.org/en-US/docs/Web/API/Event/isTrusted)
 
 #### 定義問題及撰寫程式
 
-1. 第三十天建立了類似打地鼠的小遊戲
+第三十天實作打地鼠的小遊戲，有幾件事情要做
+1. 地鼠要在隨機且不連續的洞穴中出現，出現的時間長短也不一定
+2. 點擊地鼠計分板會加1分，每次按開始遊戲計分板歸0
 
 ### 程式解析
 
@@ -25,7 +27,7 @@
     let timeUp = false;
     let score = 0;
 
-*指定頁面上的元素，選擇所有的洞、鼴鼠及計分板數字*
+*指定頁面上的元素，選擇所有的洞、地鼠及計分板數字*
 
 **產生隨機時間**
 
@@ -87,4 +89,4 @@
 
     moles.forEach(mole => mole.addEventListener('click', bonk));
 
-*當click 事件觸發時啟動bonk()，這邊有個event 屬性要提"isTrusted" 代表使用者用滑鼠點擊，如果不是的話就return，每點擊一次scroe +1，同時也要移除class'up'，並且修改計分板的分數 *
+*當click 事件觸發時啟動bonk()，這邊有個event 屬性要提"isTrusted" 代表使用者用滑鼠點擊，如果不是的話就return，每點擊一次地鼠scroe +1，同時也要移除class'up'隱藏地鼠，並且修改計分板的分數*

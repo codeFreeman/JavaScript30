@@ -2,13 +2,13 @@
 
 # JavaScript30 day2 JS + CSS Clock
 
-從 [wesbos](https://github.com/wesbos/JavaScript30)fork 過來的專案, 開始學習js30.
+從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 希望能成為前端工程師, 我將會開始挑戰Js30, 專案的github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
 
 ## 學習心得
 
-> 學習關鍵字: [setInterval](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/setInterval),[Date](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date),[getHours](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours),[getMinutes](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes),[getSeconds](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds),[HTMLElement.style](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLElement/style),
+> 學習關鍵字: [setInterval](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/setInterval), [Date](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date), [getHours](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours), [getMinutes](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes), [getSeconds](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds), [HTMLElement.style](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLElement/style),
 
 #### 定義問題及撰寫程式
 
