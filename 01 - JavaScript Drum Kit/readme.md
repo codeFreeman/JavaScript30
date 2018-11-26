@@ -8,7 +8,7 @@
 
 ## 學習心得
 
-> 學習關鍵字:  ES6 [Template Literals](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Template_literals) & [Arrow functions](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions), event [keydown](https://developer.mozilla.org/en-US/docs/Web/Events/keydown) & [transitionend](https://developer.mozilla.org/en-US/docs/Web/Events/transitionend), [addEventListener](https://developer.mozilla.org/zh-TW/docs/Web/API/EventTarget/addEventListener), [dataset](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLElement/dataset)
+> 學習關鍵字:  ES6 [Template Literals](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Template_literals) & [Arrow functions](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions), event: [keydown](https://developer.mozilla.org/en-US/docs/Web/Events/keydown) & [transitionend](https://developer.mozilla.org/en-US/docs/Web/Events/transitionend), [addEventListener](https://developer.mozilla.org/zh-TW/docs/Web/API/EventTarget/addEventListener), [dataset](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLElement/dataset)
 
 #### 定義問題及撰寫程式
 
