@@ -8,7 +8,7 @@
 
 ## 學習心得
 
-> 學習關鍵字: [scrollY](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY), [innerHeight](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight),[offsetTop](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop)
+> 學習關鍵字: [scrollY](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY), [innerHeight](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight), [offsetTop](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop)
 
 #### 定義問題及撰寫程式
 

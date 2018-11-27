@@ -8,7 +8,7 @@
 
 ## 學習心得
 
-> 學習關鍵字: [Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment),[text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
+> 學習關鍵字: [Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment), [text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
 
 #### 定義問題及撰寫程式
 

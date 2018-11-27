@@ -1,6 +1,6 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day4 Array Cardio
+# JavaScript30 day3 CSS Variables
 
 從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 

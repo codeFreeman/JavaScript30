@@ -1,6 +1,6 @@
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-# JavaScript30 day13 JS Reference VS Copy
+# JavaScript30 day14 JS Reference VS Copy
 
 從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
@@ -8,7 +8,7 @@
 
 ## 學習心得
 
-> 學習關鍵字: [call by value],[call by reference],[Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+> 學習關鍵字: [call by value], [call by reference], [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 
 #### 定義問題及撰寫程式
 

@@ -8,7 +8,7 @@
 
 ## 學習心得
 
-> 學習關鍵字: [call by value],[call by reference],[LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage),[matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches),[JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse),[JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify),[event delegation]
+> 學習關鍵字: [call by value],[call by reference],[LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage), [matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches), [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse), [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify), [event delegation]
 
 #### 定義問題及撰寫程式
 
