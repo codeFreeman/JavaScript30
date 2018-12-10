@@ -4,7 +4,7 @@
 
 從[wesbos](https://github.com/wesbos/JavaScript30) fork 過來的專案, 開始學習js30.
 
-我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30)
+我是一個Js 新手, 為了提升自己的技能, 我將開始挑戰Js30, 專案github 是 [codeFreeman](https://github.com/codeFreeman/JavaScript30/tree/gh-pages)
 
 | js30介紹 | Demo|
 | :----- | ----- |
